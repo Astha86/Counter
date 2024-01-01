@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Top Level Div -->
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center relative"
+    style="background: linear-gradient(45deg, #93a5cf 30%, #e4efe9 100%)">
+
+        <div class="font-serif text-2xl md:text-4xl font-medium">Increment & Decrement</div>
+        <div class="flex gap-7 my-10 bg-slate-50 py-4 px-5 rounded-md text-[20px] text-[#344151]">
+
+            <button onclick="dec()" class="border-r-2 border-[#bfbfbf] pr-3">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+
+            <div class="num font-medium text-xl md:text-2xl">0</div>
+
+            <button onclick="inc()" class="border-l-2 border-[#bfbfbf] pl-3">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+
+        </div>
+        <div class="font-serif font-medium md:text-lg bottom-3 absolute text-slate-800">~ Created By Astha🤍</div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7dc1996bcc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
